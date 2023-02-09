@@ -1,0 +1,17 @@
+1. SELECT CategoryName, price
+FROM Categories, products
+where CategoryName!='Beverages' and price between 1 and 100
+
+2. SELECT CategoryName, sum(Price)
+FROM Products, categories
+where CategoryName='Beverages'
+
+3. SELECT SupplierName, MIN(Quantity) 
+FROM Suppliers, OrderDetails
+
+4. SELECT LastName, FirstName, max(Quantity)
+FROM Employees, OrderDetails
+
+5. SELECT LastName, FirstName, max(Quantity)
+FROM Employees, OrderDetails
+where EmployeeID in (1,2)
