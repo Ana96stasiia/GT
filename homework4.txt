@@ -1,0 +1,23 @@
+1. db.calls.find({
+    'duration_secs': {'$gte': 60},
+})
+
+2. db.users.find(
+    {'country': {$ne: 'USA'}},
+    {'fullname': 1, 'email': 1, '_id': 0}
+)
+
+3. 
+
+4. db.users.updateMany(
+    {'country': 'Germany'},
+    {$set: {'is_europe': null}}
+)
+
+5. db.users.deleteMany(
+    {'country': 'USA'},
+)
+
+6. 
+7. Массив хранит значения одинакового типа в упорядоченном списке, значения могут повторяться в разных позициях;
+множество имеет только уникальные значения.
