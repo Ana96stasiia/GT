@@ -1,0 +1,6 @@
+List =
+[
+{id: 1, fullname: 'Ana Steshenko', age: '28.04.1998', salary: 3000, position: full-stack developer},
+{id: 2, fullname: 'Alex Block', age: '06.10.1989', salary: 5000, position: frontend developer},
+{id: 3, fullname: 'Alina Peters', age: '13.06.1981', salary: 5000, position: project-manager},
+]
